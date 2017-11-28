@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pointOfViewSpinner"
+        android:icon="@drawable/googleg_standard_color_18"
+        android:title="Item"
+        app:actionViewClass="android.widget.Spinner"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/spotSpinner"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Item"
+        app:actionViewClass="android.widget.Spinner"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mapTypeSpinner"
+        android:icon="@drawable/googleg_disabled_color_18"
+        android:title="Item"
+        app:actionViewClass="android.widget.Spinner"
+        app:showAsAction="always" />
+</menu>
